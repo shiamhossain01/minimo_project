@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+
+
+/* header section start */
+header{
+    padding: 25px 0;
+    /* border: 1px solid blue; */
+}
+.container{
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 10.5%;
+    /* border: 1px solid  red; */
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #626262;
+    margin: auto;
+    display: block;
+    transition: .5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+/* header section end */
+
+
+
+
+/* banner section start */
+.banner img{
+    width: 100%;
+}
+/* banner section end */
+
+
+
+
+/* perfect section start */
+.perfect{
+    padding: 80px 0 60px;
+}
+.container1{
+    margin: auto;
+    width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.per_h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.per_h3 a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.per_h1{
+    font-size: 30px;
+    padding: 15px 0 30px;
+}
+.per_p{
+    line-height: 24px;
+    text-align: justify;
+}
+.para{
+    margin-bottom: 30px;
+}
+/* perfect section end */
+
+
+
+
+
+/* post section start */
+.post{
+    padding: 0 0 120px;
+}
+.post_contant{
+    margin-top: 60px;
+    width: 47%;
+    /* border: 1px solid red; */
+}
+.single_img{
+    margin-bottom: 15px;
+}
+.single_img img{
+    width: 100%;
+}
+/* post section end */
+
+
+
+/* sign up section start */
+.form{
+ background: #f0f0f0;
+
+}
+.sign_up{
+    text-align: center;
+    padding: 60px 0;
+}
+.sign_up h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sign_up input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #626262;
+    width: 32%;
+    margin-top: 50px;
+    padding: 0 0 10px 10px;
+}
+.sign_up input:focus{
+    outline: none;
+}
+.email{
+    position: relative;
+
+}
+.email img{
+    position: absolute;
+    bottom: 10px;
+    left: 63.5%;
+}
+/* sign up section end */
+
+
+
+
+/* service section start */
+.service{
+    padding: 20px 0 80px;
+}
+.load{
+    margin: auto;
+    margin-top: 100px;
+}
+button{
+    background: transparent;
+    border: none;
+    border: 1px solid #626262;
+    padding: 15px 30px;
+}
+button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* service section end */
+
+
+
+
+/* footer section start */
+footer{
+    background: #f0f0f0;
+    padding: 30px 0;
+}
+.left ul{
+    display: flex;
+}
+.left ul li{
+    list-style: none;
+    padding: 0 10px;
+    color: #000000;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    list-style: none;
+    color: #000000;
+}
+.right ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+/* footer section end */
